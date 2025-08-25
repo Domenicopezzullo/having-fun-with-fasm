@@ -41,7 +41,7 @@ _start:
 	mov rdi, 0
 	call exit
 
-include "io.s"
+include "syscalls.s"
 include "utils.s"
 include "failures.s"
 
