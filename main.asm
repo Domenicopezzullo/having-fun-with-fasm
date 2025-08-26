@@ -41,9 +41,9 @@ _start:
 	mov rdi, 0
 	call exit
 
-include "syscalls.s"
-include "utils.s"
-include "failures.s"
+include "syscalls.asm"
+include "utils.asm"
+include "errors.asm"
 
 segment readable writable
 
